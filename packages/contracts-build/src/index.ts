@@ -14,12 +14,12 @@ import { SigningCosmWasmClient } from "@cosmjs/cosmwasm-stargate";
 
 export type ContractName =
   | "keeper"
-  | "lp-token"
-  | "multi-staking"
+  | "lp_token"
+  | "multi_staking"
   | "router"
-  | "stable-pool"
+  | "stable_pool"
   | "vault"
-  | "weight-pool";
+  | "weight_pool";
 
 export type InstantiateMsg =
   | KeeperTypes.InstantiateMsg

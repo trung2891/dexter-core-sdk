@@ -32,7 +32,7 @@ async function main() {
     config.rpcEndpoint,
     wallet,
     {
-      gasPrice: GasPrice.fromString("0.001orai"),
+      gasPrice: GasPrice.fromString("0.01uxprt"),
       prefix: config.prefix,
     }
   );
